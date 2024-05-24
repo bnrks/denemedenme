@@ -1,0 +1,117 @@
+#root {
+  margin: 0;
+  padding: 2rem 0;
+  height: 100vh;
+
+  --primary-color: #f9f7f7 !important;
+  --secondary-color: #dbe2ef !important;
+  --third-color: #3f72af !important;
+  --fourth-color: #112d4e !important;
+  background-color: var(--secondary-color);
+
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+}
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-slab {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.primary {
+  color: var(--primary-color) !important;
+}
+.secondary {
+  color: var(--secondary-color) !important;
+}
+.third {
+  color: var(--third-color) !important;
+}
+.fourth {
+  color: var(--fourth-color) !important;
+}
+.bg-primary {
+  background-color: var(--primary-color) !important;
+}
+.bg-secondary {
+  background-color: var(--secondary-color) !important;
+}
+.bg-third {
+  background-color: var(--third-color) !important;
+}
+.bg-fourth {
+  background-color: var(--fourth-color) !important;
+}
+.login-container {
+  height: 90vh;
+  width: 70%;
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+}
+.login-card {
+  background-color: var(--third-color);
+}
+.login-card-body {
+  border: none !important;
+}
+.register-container {
+  height: 90vh;
+  width: 70%;
+  background-color: var(--secondary-color);
+
+  border-radius: 10px;
+}
+.register-card {
+  background-color: var(--third-color);
+}
+.register-card-body {
+  border: none !important;
+}
+.word-add-container {
+  height: 85vh;
+  background-color: var(--third-color);
+  border-radius: 10px;
+  width: 100%;
+}
+.mainPagelogo {
+  font-size: 9rem;
+}
+#AppName {
+  width: 100%;
+  height: 40%;
+  font-family: "Pacifico", cursive !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+}
+.img-preview {
+  max-width: 100%; /* Resmin maksimum genişliği */
+  max-height: 200px; /* Resmin maksimum yüksekliği (isteğe bağlı olarak ayarlayabilirsiniz) */
+  height: auto; /* Boyut oranlarını koruyarak otomatik boyutlandırma */
+}
+iframe {
+  width: 80%;
+  height: 80%;
+}
+.dashboard-col-left {
+  height: 80vh;
+  background-color: var(--third-color);
+}
+.dashboard-menu {
+  height: 80vh;
+  background-color: var(--secondary-color);
+}
+.dashboard-menu-link {
+  padding: 20px;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 1.2rem !important;
+  background-color: var(--fourth-color) !important;
+}
